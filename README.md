@@ -49,3 +49,13 @@ Este projeto foi desenvolvido como atividade acadêmica para praticar conceitos 
 ## Autor
 
 Thiago Brolezze
+
+## Endpoints
+
+| Método | Rota | Descrição |
+|---|---|---|
+| GET | / | Verificar funcionamento |
+| GET | /tarefas | Listar tarefas |
+| GET | /tarefas/1 | Buscar tarefa |
+| POST | /tarefas | Criar tarefa |
+| DELETE | /tarefas/1 | Excluir tarefa |
