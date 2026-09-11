@@ -45,3 +45,7 @@ python -m unittest test_app.py
 ## Objetivo
 
 Este projeto foi desenvolvido como atividade acadêmica para praticar conceitos de DevOps, Git, GitHub e CI/CD.
+
+## Autor
+
+Thiago Brolezze
