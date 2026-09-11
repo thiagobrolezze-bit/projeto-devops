@@ -42,3 +42,20 @@ http://127.0.0.1:5000
 ```bash
 python -m unittest test_app.py
 ```
+## Objetivo
+
+Este projeto foi desenvolvido como atividade acadêmica para praticar conceitos de DevOps, Git, GitHub e CI/CD.
+
+## Autor
+
+Thiago Brolezze
+
+## Endpoints
+
+| Método | Rota | Descrição |
+|---|---|---|
+| GET | / | Verificar funcionamento |
+| GET | /tarefas | Listar tarefas |
+| GET | /tarefas/1 | Buscar tarefa |
+| POST | /tarefas | Criar tarefa |
+| DELETE | /tarefas/1 | Excluir tarefa |
