@@ -13,7 +13,7 @@ tarefas = [
 @app.route("/", methods=["GET"])
 def inicio():
     return jsonify({
-    "mensagem": "API de tarefas funcionando!",
+    "mensagem": "API de tarefas funcionando com sucesso!",
     "projeto": "Projeto DevOps",
     "versao": "1.0"
 })
