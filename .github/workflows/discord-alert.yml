@@ -1,0 +1,19 @@
+name: Alerta Discord
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  discord-alert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Enviar alerta para o Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d "{\"content\":\"Novo commit realizado no projeto projeto-devops na branch main! Autor: ${{ github.actor }}\"}" \
+          "$DISCORD_WEBHOOK"
