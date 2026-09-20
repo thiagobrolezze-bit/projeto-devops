@@ -2,9 +2,10 @@ name: CI - Testes Python
 
 on:
   push:
-    branches: [ desenvolvimento, main ]
+    branches: [desenvolvimento, main]
+
   pull_request:
-    branches: [ main ]
+    branches: [desenvolvimento]
 
 jobs:
   build:
